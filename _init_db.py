@@ -8,6 +8,7 @@ def create_db():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             slug_uni TEXT UNIQUE NOT NULL,
             name_general TEXT NOT NULL,
+            brand TEXT NOT NULL,
             gender TEXT,
             description TEXT,
             chords TEXT,
